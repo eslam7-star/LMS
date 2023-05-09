@@ -7,6 +7,7 @@ public class Book {
     private String author;
     private String ISBN;
     private String genre;
+    public int ID;
 
     public Book(String title, String author, String ISBN, String genre) {
         this.title = title;
@@ -50,6 +51,14 @@ public class Book {
     public void setGenre(String genre) {
         this.genre = genre;
     }
+
+    public int setID() {
+        this.ID = ID;
+    } 
+
+     public int getID() {
+        return ID;
+    } 
 
     @Override
     public String toString() {
